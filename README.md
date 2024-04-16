@@ -1,7 +1,9 @@
 Mitral Valve Deformation Measurement using PINNs
 
 This repository contains the code and resources for a project focused on accurately measuring mitral valve deformations using Physically Informed Neural Networks (PINNs). PINNs leverage deep learning techniques while incorporating physical principles, enabling precise modeling of complex valve deformation phenomena. The project aims to provide surgeons with valuable pre-surgical insights by transforming biomechanical understanding into actionable data.
-The project explores two main approaches to modeling the mitral valve: finite element analysis for precise stress simulation and the mass-spring system for real-time simulation support during surgery. While the finite element method offers accuracy, its computational time poses challenges for real-time applications. In contrast, the mass-spring model sacrifices precision for faster simulations. To address these limitations, the project aims to develop a novel approach using Physically-Inspired Neural Networks. This approach seeks to combine the accuracy of finite element analysis with the speed of the mass-spring system, enabling real-time applications to assist surgeons during cardiac operations.
+
+The PINN approach seeks to combine the accuracy of finite element analysis and the speed of the mass-spring system, enabling real-time applications too assist surgeons during cardiac operations.
+
 Key Features:
 *Implementation of PINNs for mitral valve deformation measurement
 *Integration of deep learning and biomechanical principles, with a focus on minimizing the Lagrangian due to blood pressure forces and tendon pressure
